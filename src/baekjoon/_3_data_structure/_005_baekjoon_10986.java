@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  *   백준 온라인 저지 10986번 - 나머지 합 구하기
  */
-public class Baekjoon_10986 {
+public class _005_baekjoon_10986 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  *   백준 온라인 저지 11720번 - 숫자의 합 구하기
  */
-public class Baekjoon_11720 {
+public class _001_baekjoon_11720 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

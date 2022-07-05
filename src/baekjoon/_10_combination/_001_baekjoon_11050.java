@@ -6,7 +6,7 @@ package baekjoon._10_combination;
  */
 import java.util.Scanner;
 
-public class Baekjoon_11050 {
+public class _001_baekjoon_11050 {
     /* 컴비네이션 조합식을 사용한다
      * D[i][j] = D[i-1][j] + D[i-1][j-1]
      * D[i][0] = 1
@@ -17,7 +17,7 @@ public class Baekjoon_11050 {
     static int[][] D;
 
     private int solution(int n, int k) {
-        int ret = 0;
+        int ret;
         D = new int[n + 1][n + 1];
 
         for (int i = 0; i <= n; i++) {
@@ -38,7 +38,7 @@ public class Baekjoon_11050 {
     }
 
     public static void main(String[] args) {
-        Baekjoon_11050 sol = new Baekjoon_11050();
+        _001_baekjoon_11050 sol = new _001_baekjoon_11050();
         Scanner sc = new Scanner(System.in);
 
         while (true) {

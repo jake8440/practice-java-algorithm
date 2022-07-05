@@ -6,7 +6,7 @@ import java.util.Scanner;
  *   백준 온라인 저지 11051번 - 이항계수 구하기 2
  *   난이도 실버 1
  */
-public class Baekjoon_11051 {
+public class _002_baekjoon_11051 {
     /* 컴비네이션 조합식을 사용한다
      * D[i][j] = D[i-1][j] + D[i-1][j-1]
      * D[i][0] = 1
@@ -17,7 +17,7 @@ public class Baekjoon_11051 {
     static int[][] D;
 
     private int solution(int n, int k) {
-        int ret = 0;
+        int ret;
         D = new int[n + 1][n + 1];
 
         for (int i = 0; i <= n; i++) {
@@ -39,7 +39,7 @@ public class Baekjoon_11051 {
     }
 
     public static void main(String[] args) {
-        Baekjoon_11051 sol = new Baekjoon_11051();
+        _002_baekjoon_11051 sol = new _002_baekjoon_11051();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
