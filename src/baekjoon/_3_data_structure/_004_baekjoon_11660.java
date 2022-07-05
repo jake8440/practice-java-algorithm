@@ -1,12 +1,11 @@
 package baekjoon._3_data_structure;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
  *   백준 온라인 저지 11660번 - 구간 합 구하기 2
  */
-public class Baekjoon_11660 {
+public class _004_baekjoon_11660 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

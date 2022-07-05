@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  *   백준 온라인 저지 11659번 - 구간 합 구하기
  */
-public class Baekjoon_11659 {
+public class _003_baekjoon_11659 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

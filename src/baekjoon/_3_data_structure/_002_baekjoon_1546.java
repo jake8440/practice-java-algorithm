@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  *   백준 온라인 저지 1546번 - 평균 구하기
  */
-public class Baekjoon_1546 {
+public class _002_baekjoon_1546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
